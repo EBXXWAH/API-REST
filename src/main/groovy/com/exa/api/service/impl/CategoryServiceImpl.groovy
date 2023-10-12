@@ -9,7 +9,6 @@ import org.springframework.stereotype.Service
 class CategoryServiceImpl implements CategoryService {
 @Autowired
 private final CategoryRepository CategoryRepository
-
 @Override
 List<Category> findAll() {
 CategoryRepository.findAll()
