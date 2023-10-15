@@ -10,10 +10,10 @@ import jakarta.persistence.Column
 @Entity
 @Table(name = "categories")
 class Category {
-@Id
-@GeneratedValue(strategy = GenerationType.IDENTITY)
-Integer id
-@NotNull
-@Column(nullable = false)
-String name
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    Integer id
+    @NotNull
+    @Column(nullable = false)
+    String name
 }
